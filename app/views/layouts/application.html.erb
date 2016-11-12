@@ -8,11 +8,14 @@
 </head>
 <body>
 
-
 <%= render 'home/header' %> <!-- This code tells to look for _header file in home folder -->
 
 <div class="container">
- <%= yield %>
+    <% flash.each do |name, msg| %>
+     <%= content_tag(:div, msg, class: "alert alert-info") %>
+    <% end %>
+    
+    <%= yield %>
 </div>
 
 </body>
