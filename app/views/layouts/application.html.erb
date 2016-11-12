@@ -8,7 +8,12 @@
 </head>
 <body>
 
-<%= yield %>
+
+<%= render 'home/header' %> <!-- This code tells to look for _header file in home folder -->
+
+<div class="container">
+ <%= yield %>
+</div>
 
 </body>
 </html>

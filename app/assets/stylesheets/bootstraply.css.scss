@@ -1,0 +1,35 @@
+//Navbar
+$navbar-height: 40px;
+$navbar-default-bg: #BC8034;                      //Color is copper
+$navbar-default-link-color: #FFFFFF;              
+
+//Background color
+$body-bg: #000000;                               
+
+//It changes the color of brand of my site
+$navbar-default-brand-color: #000000;
+
+//Jumotron
+$jumbotron-bg: 	#8C271E;                        //Color is vivid auburn
+$jumbotron-color: #FFFFFF;
+$font-family-sans-serif: Georgia;
+
+//Panels of Edit, Login, 
+//$panel-default-heading-bg: #E8E8E8;
+//$panel-footer-bg: #E8E8E8;
+
+//This changes the color of the input field when you hover it
+//$input-border-focus: #000000;
+
+//Pagination
+//$pagination-active-bg: #000000;
+//$pagination-active-border: #000000;
+
+
+// "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.center{
+    text-align: center;
+}
