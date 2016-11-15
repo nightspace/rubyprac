@@ -15,6 +15,8 @@ gem 'devise', '~> 4.2'
 gem 'paperclip', '~> 5.1'
 gem 'jquery-turbolinks'
 gem 'masonry-rails', '~> 0.2.4'
+gem 'will_paginate', '~> 3.1', '>= 3.1.5'
+gem 'will_paginate-bootstrap', '~> 1.0', '>= 1.0.1'
 
 # Use Unicorn as the app server
 # gem 'unicorn'
